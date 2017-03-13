@@ -36,7 +36,7 @@
 						<div class="center">
 							<div class="user-image">
 								<div class="fileinput-new thumbnail">
-									<?php echo $this->html->image('http://localhost/capwebsite/uploads/counselor/images/'.$counselor['Counselor']['image']); ?>
+									<?php echo $this->html->image('http://localhost/cap/uploads/counselor/images/'.$counselor['Counselor']['image']); ?>
 								</div>
 							</div>
 							<h4><?php echo $counselor['Counselor']['full_name'];?></h4>
@@ -199,7 +199,7 @@
 								</div>
 							<div class = "panel-body document-thumbnail">
 							<?php
-									echo $this->Html->image('http://localhost/capwebsite/uploads/counselor/documents/'.$counselor_document['filename']);
+									echo $this->Html->image('http://localhost/cap/uploads/counselor/documents/'.$counselor_document['filename']);
 							?>
 							</div>
 					</div>

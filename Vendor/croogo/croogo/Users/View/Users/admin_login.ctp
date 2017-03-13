@@ -30,7 +30,8 @@
 			'controller' => 'users',
 			'action' => 'forgot',
 			), array(
-			'class' => 'forgot'
+			'class' => 'forgot',
+			'style' => 'margin: 0px 5px;'
 		));
 	?>
 	</div>

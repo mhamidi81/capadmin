@@ -10,7 +10,7 @@
 	<?php echo $this->Form->end(__d('croogo', 'Log In')); ?>
 	<?php
 		echo $this->Html->link(__d('croogo', 'Forgot password?'), array(
-			'controller' => 'users', 'action' => 'forgot',
+			'controller' => 'users', 'action' => 'forgot'
 		));
 	?>
 </div>

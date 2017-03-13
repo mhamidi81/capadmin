@@ -12,7 +12,7 @@ foreach ($members_judgments as $key => $member_judgment) {
 <?php if ($this->CapTheme->isUserAutorized($userId, array('action' => 'save_member_request_judgment', 'admin' => true, 'plugin' => 'request_managment', 'controller' => 'requests'))) {?>
 <a href="#" class="btn btn-lg btn-success btn-send-commissionnary-judgment" request-id = "<?php echo $request['Request']['id'];?>" data-toggle="modal" data-target="#dialog_send_commissionnary_judgment">
 	<i class="ti-close"></i>
-		<?php if(!empty($connected_memeber_judgment)) echo 'Editer votre avis'; else echo 'Envoyer votre avis'; ?>
+		<?php if(!empty($connected_memeber_judgment)) echo 'Editer Mon avis'; else echo 'Envoyer Mon avis'; ?>
 </a>
 <div class="modal fade label_block" id="dialog_send_commissionnary_judgment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
