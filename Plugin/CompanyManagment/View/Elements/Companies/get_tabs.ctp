@@ -71,8 +71,8 @@
 					<div class="tab-content">
 						<?php foreach ($company['Employee'] as $key => $employee) { ?>
 						<div class="tab-pane fade in <?php if($key==0) echo 'active';?>" id="employee_<?php echo $employee['id'];?>">
-							<object data="http://localhost/capwebsite/uploads/company/documents/<?php echo $employee['cv_file']; ?>" type="application/pdf" width="100%" height="800">
-						        alt : <a href="http://localhost/capwebsite/uploads/company/documents/<?php echo $employee['cv_file']; ?>"></a>
+							<object data="http://localhost/cap/uploads/company/documents/<?php echo $employee['cv_file']; ?>" type="application/pdf" width="100%" height="800">
+						        alt : <a href="http://localhost/cap/uploads/company/documents/<?php echo $employee['cv_file']; ?>"></a>
 						    </object>
 						</div>
 						<?php } ?>

@@ -20,7 +20,7 @@
 						<div class="center">
 							<div class="user-image">
 								<div class="fileinput-new thumbnail">
-									<?php echo $this->html->image('http://localhost/capwebsite/uploads/company/documents/'.$company['Company']['logo']); ?>
+									<?php echo $this->html->image('http://localhost/cap/uploads/company/documents/'.$company['Company']['logo']); ?>
 								</div>
 							</div>
 							<h4><?php echo $company['Company']['name'];?></h4>
@@ -122,7 +122,7 @@
 								</div>
 							<div class = "panel-body document-thumbnail">
 							<?php
-									echo $this->Html->image('http://localhost/capwebsite/uploads/company/documents/'.$company_document['filename']);
+									echo $this->Html->image('http://localhost/cap/uploads/company/documents/'.$company_document['filename']);
 							?>
 							</div>
 					</div>

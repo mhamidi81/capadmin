@@ -37,15 +37,14 @@
  */
 class EmailConfig {
 
-
 	public $default = array(
-		'transport' => 'Smtp',
-		'from' => array('admin@capmaroc.com' => 'cap maroc'),
-		'host' => 'mailtrap.io',
-		'port' => 2525,
-		'timeout' => 30,
-		'username' => '423770efeac66fd0f',
-		'password' => 'f79edc5c71a93a',
-		'client' => 'mailtrap.io'
+			'transport' => 'Smtp',
+			'from' => array('contact@cap-maroc.ma' => 'cap agriculture'),
+			'host' => 'cap-maroc.ma',
+			'port' => 25,
+			'timeout' => 120,
+			'username' => 'contact@cap-maroc.ma',
+			'password' => 'Capmaroc17',
+			'client' => 'contact@cap-maroc.ma'
 	);
 }
